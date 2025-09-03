@@ -56,7 +56,7 @@ export default function SignupPage() {
               </Link>
             </div>
           </CardContent>
-        </Card>
+        </card>
       </main>
     </div>
   );
