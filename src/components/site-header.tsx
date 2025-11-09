@@ -30,6 +30,9 @@ export function SiteHeader() {
           <Link href="/credit-request" className="nav-button-glow">
             <Button variant="link" className="text-xl px-5 py-3 text-muted-foreground hover:text-white">Credit Request</Button>
           </Link>
+          <Link href="/anonymous-hubs" className="nav-button-glow">
+            <Button variant="link" className="text-xl px-5 py-3 text-muted-foreground hover:text-white">Anonymous Hubs</Button>
+          </Link>
         </nav>
         <div className="flex items-center space-x-2">
           {isDashboard ? (
