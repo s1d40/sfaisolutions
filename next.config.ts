@@ -16,20 +16,20 @@ const config: NextConfig = {
     ],
   },
   async rewrites() {
-    return [
-      {
-        source: '/api/:path*',
-        destination: 'https://empathy-hub-backend-131065304705.us-central1.run.app/api/v1/:path*',
-      },
-      {
-        source: '/anonymous-hubs',
-        destination: '/anonymous-hubs/index.html',
-      },
-      {
-        source: '/anonymous-hubs/:path*',
-        destination: '/anonymous-hubs/:path*',
-      },
-    ]
+    return {
+      beforeFiles: [
+        {
+          source: '/api/:path*',
+          destination: 'https://empathy-hub-backend-131065304705.us-central1.run.app/api/v1/:path*',
+        },
+      ],
+      afterFiles: [
+        {
+          source: '/:path((?!api/).*)',
+          destination: '/index.html',
+        },
+      ],
+    }
   },
 };
 
