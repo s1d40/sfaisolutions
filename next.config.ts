@@ -19,7 +19,7 @@ const config: NextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://localhost:8000/app/:path*',
+        destination: 'https://empathy-hub-backend-131065304705.us-central1.run.app/api/v1/:path*',
       },
     ]
   },
