@@ -43071,7 +43071,7 @@ aqQ(a){var s=0,r=A.B(t.g8),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f
 var $async$wm=A.x(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:i=t.N
 h=A.a1(["skip",B.f.j(0),"limit",B.f.j(20)],i,i)
-g=A.bF("https://empathy-hub-backend-131065304705.us-central1.run.app/api/v1/users/me/muted").kY(0,h)
+g=A.bF("https://empathy-hub-backend-131065304705.us-central1.run.app/api/v1/user-actions/me/muted").kY(0,h)
 p=4
 s=7
 return A.u(n.a.j4("GET",g,A.a1(["Content-Type","application/json","Authorization","Bearer "+a],i,i)),$async$wm)
@@ -43108,7 +43108,7 @@ aqP(a){var s=0,r=A.B(t.g8),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f
 var $async$wl=A.x(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:i=t.N
 h=A.a1(["skip",B.f.j(0),"limit",B.f.j(20)],i,i)
-g=A.bF("https://empathy-hub-backend-131065304705.us-central1.run.app/api/v1/users/me/blocked").kY(0,h)
+g=A.bF("https://empathy-hub-backend-131065304705.us-central1.run.app/api/v1/user-actions/me/blocked").kY(0,h)
 p=4
 s=7
 return A.u(n.a.j4("GET",g,A.a1(["Content-Type","application/json","Authorization","Bearer "+a],i,i)),$async$wl)
