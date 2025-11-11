@@ -44773,7 +44773,7 @@ if(!(m.c instanceof A.bx)){o.N(B.Dj)
 return}if(o.as!=null){s=o.at
 s=s!=null&&!s.gYc()}else s=!1
 if(s)return
-r=A.bF("wss://empathy-hub-backend-131065304705.us-central1.run.app/api/v1/chats/ws/"+o.z+"?token="+t.ol.a(m.c).d)
+r=A.bF("wss://empathy-hub-backend-131065304705.us-central1.run.app/api/v1/chat/ws/"+o.z+"?token="+t.ol.a(m.c).d)
 m=n.a=A.b([],t.SU)
 s=n.b=!1
 q=n.c=o.Q
